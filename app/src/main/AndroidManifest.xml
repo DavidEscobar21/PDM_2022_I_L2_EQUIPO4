@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hn.edu.ujcv.pdm_2022_i_l2_equipo4">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PDM_2022_I_L2_EQUIPO4">
+        <activity
+            android:name=".IngresarNota"
+            android:exported="false" />
+        <activity
+            android:name=".DatosNota"
+            android:exported="false" />
+        <activity
+            android:name=".IngresarNotas"
+            android:exported="false" />
+        <activity
+            android:name=".MostrarMatricula"
+            android:exported="false"
+            android:label="@string/title_activity_mostrar_matricula"
+            android:theme="@style/Theme.PDM_2022_I_L2_EQUIPO4.NoActionBar" />
+        <activity
+            android:name=".MatriculaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MostrarClases"
+            android:exported="false"
+            android:label="@string/title_activity_mostrar_clases"
+            android:theme="@style/Theme.PDM_2022_I_L2_EQUIPO4.NoActionBar" />
+        <activity
+            android:name=".Clases"
+            android:exported="false" />
+        <activity
+            android:name=".AlumnoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
